@@ -32,6 +32,8 @@
             {{ $posts->links() }}
         </div>
         
+        <a href="/">[一覧に戻る]</a>
+        
         <script>
             function deletePost(id){
                 "use strict"
